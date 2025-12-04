@@ -1,0 +1,82 @@
+{
+  "app": {
+    "name": "Aplicación de Alarma Móvil",
+    "version": "Versión {{version}}"
+  },
+  "alarm": {
+    "title": "Alarmas",
+    "addAlarm": "Agregar alarma",
+    "editAlarm": "Editar alarma",
+    "createAlarm": "Crear alarma",
+    "updateAlarm": "Actualizar alarma",
+    "deleteAlarm": "Eliminar alarma",
+    "label": "Etiqueta",
+    "time": "Hora",
+    "changeTime": "Cambiar hora",
+    "setTime": "Establecer hora de alarma",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "hour": "Hora",
+    "minute": "Minuto",
+    "oneTime": "Una vez",
+    "everyDay": "Todos los días",
+    "weekdays": "Días laborables",
+    "weekends": "Fines de semana",
+    "repeat": "Repetir",
+    "sound": "Sonido",
+    "vibrate": "Vibrar",
+    "snooze": "Posponer",
+    "alarmName": "Nombre de alarma",
+    "confirmDelete": "¿Está seguro de que desea eliminar esta alarma?",
+    "deleteConfirmTitle": "Eliminar alarma"
+  },
+  "empty": {
+    "noAlarms": "Aún no hay alarmas",
+    "tapToCreate": "Toca + para crear tu primera alarma"
+  },
+  "settings": {
+    "title": "Configuración",
+    "notifications": "Notificaciones",
+    "soundVibration": "Sonido y vibración",
+    "language": "Idioma",
+    "github": "Repositorio GitHub",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "about": "Acerca de",
+    "builtWith": "Creado con React Native y Clean Architecture",
+    "copyright": "\u00a9 2025 Mobile Alarm App"
+  },
+  "permissions": {
+    "title": "Permisos necesarios",
+    "notificationsTitle": "Notificaciones",
+    "notificationsDesc": "Necesario para mostrar alarmas en la pantalla de bloqueo y reproducir sonidos.",
+    "exactAlarmsTitle": "Alarmas exactas",
+    "exactAlarmsDesc": "Permite que las alarmas suenen con precisión, anulando No molestar.",
+    "grantPermissions": "Conceder permisos",
+    "maybeLater": "Tal vez más tarde",
+    "privacyNote": "Valoramos su privacidad. Los permisos son solo para alarmas."
+  },
+  "errors": {
+    "loadFailed": "No se pudieron cargar las alarmas",
+    "createFailed": "No se pudo crear la alarma",
+    "updateFailed": "No se pudo actualizar la alarma",
+    "deleteFailed": "No se pudo eliminar la alarma",
+    "genericError": "Ocurrió un error"
+  },
+  "days": {
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "mon": "Lun",
+    "tue": "Mar",
+    "wed": "Mié",
+    "thu": "Jue",
+    "fri": "Vie",
+    "sat": "Sáb",
+    "sun": "Dom"
+  }
+}

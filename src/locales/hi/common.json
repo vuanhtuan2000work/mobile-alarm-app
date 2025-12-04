@@ -1,0 +1,82 @@
+{
+  "app": {
+    "name": "मोबाइल अलार्म ऐप",
+    "version": "संस्करण {{version}}"
+  },
+  "alarm": {
+    "title": "अलार्म",
+    "addAlarm": "अलार्म जोड़ें",
+    "editAlarm": "अलार्म संपादित करें",
+    "createAlarm": "अलार्म बनाएं",
+    "updateAlarm": "अलार्म अपडेट करें",
+    "deleteAlarm": "अलार्म हटाएं",
+    "label": "लेबल",
+    "time": "समय",
+    "changeTime": "समय बदलें",
+    "setTime": "अलार्म समय सेट करें",
+    "confirm": "पुष्टि करें",
+    "cancel": "रद्द करें",
+    "hour": "घंटा",
+    "minute": "मिनट",
+    "oneTime": "एक बार",
+    "everyDay": "हर दिन",
+    "weekdays": "कार्य दिवस",
+    "weekends": "सप्ताहांत",
+    "repeat": "दोहराएं",
+    "sound": "ध्वनि",
+    "vibrate": "कंपन",
+    "snooze": "स्नूज़",
+    "alarmName": "अलार्म का नाम",
+    "confirmDelete": "क्या आप वाकई इस अलार्म को हटाना चाहते हैं?",
+    "deleteConfirmTitle": "अलार्म हटाएं"
+  },
+  "empty": {
+    "noAlarms": "अभी तक कोई अलार्म नहीं",
+    "tapToCreate": "अपना पहला अलार्म बनाने के लिए + टैप करें"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "notifications": "सूचनाएं",
+    "soundVibration": "ध्वनि और कंपन",
+    "language": "भाषा",
+    "github": "GitHub रिपॉजिटरी",
+    "privacy": "गोपनीयता नीति",
+    "terms": "सेवा की शर्तें",
+    "about": "के बारे में",
+    "builtWith": "React Native और Clean Architecture के साथ बनाया गया",
+    "copyright": "\u00a9 2025 Mobile Alarm App"
+  },
+  "permissions": {
+    "title": "अनुमतियां आवश्यक",
+    "notificationsTitle": "सूचनाएं",
+    "notificationsDesc": "लॉक स्क्रीन पर अलार्म दिखाने और ध्वनि बजाने के लिए आवश्यक।",
+    "exactAlarmsTitle": "सटीक अलार्म",
+    "exactAlarmsDesc": "अलार्म को सही समय पर बजने की अनुमति देता है, परेशान न करें को ओवरराइड करता है।",
+    "grantPermissions": "अनुमतियां दें",
+    "maybeLater": "बाद में",
+    "privacyNote": "हम आपकी गोपनीयता को महत्व देते हैं। अनुमतियां केवल अलार्म के लिए हैं।"
+  },
+  "errors": {
+    "loadFailed": "अलार्म लोड करने में विफल",
+    "createFailed": "अलार्म बनाने में विफल",
+    "updateFailed": "अलार्म अपडेट करने में विफल",
+    "deleteFailed": "अलार्म हटाने में विफल",
+    "genericError": "एक त्रुटि हुई"
+  },
+  "days": {
+    "monday": "सोमवार",
+    "tuesday": "मंगलवार",
+    "wednesday": "बुधवार",
+    "thursday": "गुरुवार",
+    "friday": "शुक्रवार",
+    "saturday": "शनिवार",
+    "sunday": "रविवार",
+    "mon": "सोम",
+    "tue": "मंगल",
+    "wed": "बुध",
+    "thu": "गुरु",
+    "fri": "शुक्र",
+    "sat": "शनि",
+    "sun": "रवि"
+  }
+}
