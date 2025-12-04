@@ -1,0 +1,82 @@
+{
+  "app": {
+    "name": "Application d'alarme mobile",
+    "version": "Version {{version}}"
+  },
+  "alarm": {
+    "title": "Alarmes",
+    "addAlarm": "Ajouter une alarme",
+    "editAlarm": "Modifier l'alarme",
+    "createAlarm": "Créer une alarme",
+    "updateAlarm": "Mettre à jour l'alarme",
+    "deleteAlarm": "Supprimer l'alarme",
+    "label": "Étiquette",
+    "time": "Heure",
+    "changeTime": "Changer l'heure",
+    "setTime": "Définir l'heure de l'alarme",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "hour": "Heure",
+    "minute": "Minute",
+    "oneTime": "Une fois",
+    "everyDay": "Tous les jours",
+    "weekdays": "Jours de semaine",
+    "weekends": "Week-ends",
+    "repeat": "Répéter",
+    "sound": "Son",
+    "vibrate": "Vibrer",
+    "snooze": "Répétition",
+    "alarmName": "Nom de l'alarme",
+    "confirmDelete": "Voulez-vous vraiment supprimer cette alarme ?",
+    "deleteConfirmTitle": "Supprimer l'alarme"
+  },
+  "empty": {
+    "noAlarms": "Pas encore d'alarmes",
+    "tapToCreate": "Appuyez sur + pour créer votre première alarme"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "notifications": "Notifications",
+    "soundVibration": "Son et vibration",
+    "language": "Langue",
+    "github": "Dépôt GitHub",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "about": "À propos",
+    "builtWith": "Construit avec React Native et Clean Architecture",
+    "copyright": "\u00a9 2025 Mobile Alarm App"
+  },
+  "permissions": {
+    "title": "Autorisations requises",
+    "notificationsTitle": "Notifications",
+    "notificationsDesc": "Requis pour afficher les alarmes sur votre écran de verrouillage et jouer des sons.",
+    "exactAlarmsTitle": "Alarmes exactes",
+    "exactAlarmsDesc": "Permet aux alarmes de sonner précisément à l'heure, en remplaçant Ne pas déranger.",
+    "grantPermissions": "Accorder les autorisations",
+    "maybeLater": "Peut-être plus tard",
+    "privacyNote": "Nous respectons votre vie privée. Les autorisations ne concernent que les alarmes."
+  },
+  "errors": {
+    "loadFailed": "Échec du chargement des alarmes",
+    "createFailed": "Échec de la création de l'alarme",
+    "updateFailed": "Échec de la mise à jour de l'alarme",
+    "deleteFailed": "Échec de la suppression de l'alarme",
+    "genericError": "Une erreur s'est produite"
+  },
+  "days": {
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "mon": "Lun",
+    "tue": "Mar",
+    "wed": "Mer",
+    "thu": "Jeu",
+    "fri": "Ven",
+    "sat": "Sam",
+    "sun": "Dim"
+  }
+}
