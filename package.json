@@ -1,0 +1,85 @@
+{
+  "name": "mobile-alarm-app",
+  "version": "0.1.0",
+  "description": "Cross-platform mobile alarm app built with React Native",
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "typecheck": "tsc --noEmit",
+    "prepare": "husky install",
+    "e2e:ios": "detox test --configuration ios",
+    "e2e:android": "detox test --configuration android"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "react-native-screens": "^3.34.0",
+    "react-native-safe-area-context": "^4.11.0",
+    "zustand": "^4.5.5",
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@notifee/react-native": "^7.8.2",
+    "i18next": "^23.15.1",
+    "react-i18next": "^15.0.2",
+    "react-native-localize": "^3.2.1",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native/babel-preset": "0.76.5",
+    "@react-native/eslint-config": "0.76.5",
+    "@react-native/metro-config": "0.76.5",
+    "@react-native/typescript-config": "0.76.5",
+    "@types/react": "^18.3.5",
+    "@types/react-test-renderer": "^18.3.0",
+    "@types/jest": "^29.5.12",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "jest": "^29.7.0",
+    "react-test-renderer": "18.3.1",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.9",
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuanhtuan2000work/mobile-alarm-app.git"
+  },
+  "keywords": [
+    "react-native",
+    "alarm",
+    "mobile",
+    "ios",
+    "android",
+    "notifications",
+    "typescript"
+  ],
+  "author": "vuanhtuan2000work",
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}
