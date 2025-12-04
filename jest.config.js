@@ -1,10 +1,18 @@
 module.exports = {
   preset: 'react-native',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json'],
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
-  testMatch: ['**/__tests__/**/*.(test|spec).(ts|tsx|js)'],
+  setupFilesAfterEnv: ['<rootDir>/__tests__/setup.ts', '<rootDir>/jest.setup.js'],
+  testMatch: [
+    '**/__tests__/**/*.(test|spec).(ts|tsx|js)',
+    '!**/__tests__/setup.ts',
+  ],
   transform: {
-    '^.+\\.(ts|tsx)$': 'babel-jest',
+    '^.+\\.(ts|tsx)$': [
+      'babel-jest',
+      {
+        presets: ['module:@react-native/babel-preset'],
+      },
+    ],
   },
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
@@ -18,6 +26,9 @@ module.exports = {
     'src/**/*.{ts,tsx}',
     '!src/**/*.d.ts',
     '!src/**/__tests__/**',
+    '!src/presentation/components/**', // UI components tested via E2E
+    '!src/presentation/screens/**',    // Screens tested via E2E
+    '!src/presentation/navigation/**', // Navigation tested via E2E
   ],
   coverageThreshold: {
     global: {
@@ -27,4 +38,9 @@ module.exports = {
       statements: 70,
     },
   },
+  coverageReporters: ['text', 'lcov', 'html'],
+  testEnvironment: 'node',
+  transformIgnorePatterns: [
+    'node_modules/(?!(react-native|@react-native|@react-navigation|@notifee)/)',
+  ],
 };

@@ -1,0 +1,82 @@
+{
+  "app": {
+    "name": "Ứng dụng Báo thức",
+    "version": "Phiên bản {{version}}"
+  },
+  "alarm": {
+    "title": "Báo thức",
+    "addAlarm": "Thêm báo thức",
+    "editAlarm": "Sửa báo thức",
+    "createAlarm": "Tạo báo thức",
+    "updateAlarm": "Cập nhật báo thức",
+    "deleteAlarm": "Xóa báo thức",
+    "label": "Nhãn",
+    "time": "Thời gian",
+    "changeTime": "Đổi giờ",
+    "setTime": "Đặt giờ báo thức",
+    "confirm": "Xác nhận",
+    "cancel": "Hủy",
+    "hour": "Giờ",
+    "minute": "Phút",
+    "oneTime": "Một lần",
+    "everyDay": "Hàng ngày",
+    "weekdays": "Ngày trong tuần",
+    "weekends": "Cuối tuần",
+    "repeat": "Lặp lại",
+    "sound": "Âm thanh",
+    "vibrate": "Rung",
+    "snooze": "Báo lại",
+    "alarmName": "Tên báo thức",
+    "confirmDelete": "Bạn có chắc muốn xóa báo thức này?",
+    "deleteConfirmTitle": "Xóa báo thức"
+  },
+  "empty": {
+    "noAlarms": "Chưa có báo thức",
+    "tapToCreate": "Nhấn + để tạo báo thức đầu tiên"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "notifications": "Thông báo",
+    "soundVibration": "Âm thanh & Rung",
+    "language": "Ngôn ngữ",
+    "github": "GitHub Repository",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ",
+    "about": "Giới thiệu",
+    "builtWith": "Xây dựng với React Native & Clean Architecture",
+    "copyright": "\u00a9 2025 Mobile Alarm App"
+  },
+  "permissions": {
+    "title": "Yêu cầu quyền truy cập",
+    "notificationsTitle": "Thông báo",
+    "notificationsDesc": "Cần thiết để hiển thị báo thức trên màn hình khóa và phát âm thanh.",
+    "exactAlarmsTitle": "Báo thức chính xác",
+    "exactAlarmsDesc": "Cho phép báo thức reo đúng giờ, bỏ qua chế độ Không làm phiền.",
+    "grantPermissions": "Cấp quyền",
+    "maybeLater": "Để sau",
+    "privacyNote": "Chúng tôi tôn trọng quyền riêng tư của bạn. Quyền chỉ dùng cho báo thức."
+  },
+  "errors": {
+    "loadFailed": "Không thể tải báo thức",
+    "createFailed": "Không thể tạo báo thức",
+    "updateFailed": "Không thể cập nhật báo thức",
+    "deleteFailed": "Không thể xóa báo thức",
+    "genericError": "Đã xảy ra lỗi"
+  },
+  "days": {
+    "monday": "Thứ hai",
+    "tuesday": "Thứ ba",
+    "wednesday": "Thứ tư",
+    "thursday": "Thứ năm",
+    "friday": "Thứ sáu",
+    "saturday": "Thứ bảy",
+    "sunday": "Chủ nhật",
+    "mon": "T2",
+    "tue": "T3",
+    "wed": "T4",
+    "thu": "T5",
+    "fri": "T6",
+    "sat": "T7",
+    "sun": "CN"
+  }
+}

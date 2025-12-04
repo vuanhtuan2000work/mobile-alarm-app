@@ -1,0 +1,82 @@
+{
+  "app": {
+    "name": "Mobile Alarm App",
+    "version": "Version {{version}}"
+  },
+  "alarm": {
+    "title": "Alarms",
+    "addAlarm": "Add Alarm",
+    "editAlarm": "Edit Alarm",
+    "createAlarm": "Create Alarm",
+    "updateAlarm": "Update Alarm",
+    "deleteAlarm": "Delete Alarm",
+    "label": "Label",
+    "time": "Time",
+    "changeTime": "Change Time",
+    "setTime": "Set Alarm Time",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "hour": "Hour",
+    "minute": "Minute",
+    "oneTime": "One time",
+    "everyDay": "Every day",
+    "weekdays": "Weekdays",
+    "weekends": "Weekends",
+    "repeat": "Repeat",
+    "sound": "Sound",
+    "vibrate": "Vibrate",
+    "snooze": "Snooze",
+    "alarmName": "Alarm name",
+    "confirmDelete": "Are you sure you want to delete this alarm?",
+    "deleteConfirmTitle": "Delete Alarm"
+  },
+  "empty": {
+    "noAlarms": "No alarms yet",
+    "tapToCreate": "Tap + to create your first alarm"
+  },
+  "settings": {
+    "title": "Settings",
+    "notifications": "Notifications",
+    "soundVibration": "Sound & Vibration",
+    "language": "Language",
+    "github": "GitHub Repository",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "about": "About",
+    "builtWith": "Built with React Native & Clean Architecture",
+    "copyright": "\u00a9 2025 Mobile Alarm App"
+  },
+  "permissions": {
+    "title": "Permissions Required",
+    "notificationsTitle": "Notifications",
+    "notificationsDesc": "Required to show alarms on your lock screen and play sounds.",
+    "exactAlarmsTitle": "Exact Alarms",
+    "exactAlarmsDesc": "Allows alarms to ring precisely on time, overriding Do Not Disturb.",
+    "grantPermissions": "Grant Permissions",
+    "maybeLater": "Maybe Later",
+    "privacyNote": "We value your privacy. Permissions are only for alarms."
+  },
+  "errors": {
+    "loadFailed": "Failed to load alarms",
+    "createFailed": "Failed to create alarm",
+    "updateFailed": "Failed to update alarm",
+    "deleteFailed": "Failed to delete alarm",
+    "genericError": "An error occurred"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  }
+}
